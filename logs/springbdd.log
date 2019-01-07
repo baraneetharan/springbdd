@@ -1,0 +1,108 @@
+*[ERROR]-- Cannot set level 'ALL' for 'com.kgisl.springbdd'--
+*[INFO ]-- Starting SpringbddApplicationTests on kgfsl with PID 65023 (started by baraneetharan in /Users/baraneetharan/Documents/java/springbdd)--
+*[INFO ]-- No active profile set, falling back to default profiles: default--
+*[INFO ]-- HikariPool-1 - Starting...--
+*[INFO ]-- HikariPool-1 - Start completed.--
+*[INFO ]-- Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]--
+*[INFO ]-- Context refreshed--
+*[INFO ]-- Found 1 custom documentation plugin(s)--
+*[INFO ]-- Scanning for api listing references--
+*[INFO ]-- Started SpringbddApplicationTests in 21.82 seconds (JVM running for 27.735)--
+*[INFO ]-- HikariPool-1 - Shutdown initiated...--
+*[INFO ]-- HikariPool-1 - Shutdown completed.--
+*[ERROR]-- Cannot set level 'ALL' for 'com.kgisl.springbdd'--
+*[INFO ]-- Starting SpringbddApplicationTests on kgfsl with PID 65183 (started by baraneetharan in /Users/baraneetharan/Documents/java/springbdd)--
+*[INFO ]-- No active profile set, falling back to default profiles: default--
+*[INFO ]-- HikariPool-1 - Starting...--
+*[INFO ]-- HikariPool-1 - Start completed.--
+*[INFO ]-- Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]--
+*[INFO ]-- Context refreshed--
+*[INFO ]-- Found 1 custom documentation plugin(s)--
+*[INFO ]-- Scanning for api listing references--
+*[INFO ]-- Started SpringbddApplicationTests in 29.912 seconds (JVM running for 41.364)--
+*[INFO ]-- HikariPool-1 - Shutdown initiated...--
+*[INFO ]-- HikariPool-1 - Shutdown completed.--
+*[ERROR]-- Cannot set level 'ALL' for 'com.kgisl.springbdd'--
+*[INFO ]-- Starting SpringbddApplicationTests on kgfsl with PID 65534 (started by baraneetharan in /Users/baraneetharan/Documents/java/springbdd)--
+*[INFO ]-- No active profile set, falling back to default profiles: default--
+*[INFO ]-- HikariPool-1 - Starting...--
+*[INFO ]-- HikariPool-1 - Start completed.--
+*[INFO ]-- Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]--
+*[INFO ]-- Context refreshed--
+*[INFO ]-- Found 1 custom documentation plugin(s)--
+*[INFO ]-- Scanning for api listing references--
+*[INFO ]-- Started SpringbddApplicationTests in 26.673 seconds (JVM running for 34.387)--
+*[INFO ]-- HikariPool-1 - Shutdown initiated...--
+*[INFO ]-- HikariPool-1 - Shutdown completed.--
+*[ERROR]-- Cannot set level 'ALL' for 'com.kgisl.springbdd'--
+*[INFO ]-- Starting SpringbddApplicationTests on kgfsl with PID 65641 (started by baraneetharan in /Users/baraneetharan/Documents/java/springbdd)--
+*[INFO ]-- No active profile set, falling back to default profiles: default--
+*[INFO ]-- HikariPool-1 - Starting...--
+*[INFO ]-- HikariPool-1 - Start completed.--
+*[INFO ]-- Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]--
+*[INFO ]-- Context refreshed--
+*[INFO ]-- Found 1 custom documentation plugin(s)--
+*[INFO ]-- Scanning for api listing references--
+*[INFO ]-- Started SpringbddApplicationTests in 16.301 seconds (JVM running for 20.639)--
+*[INFO ]-- HikariPool-1 - Shutdown initiated...--
+*[INFO ]-- HikariPool-1 - Shutdown completed.--
+*[ERROR]-- Cannot set level 'ALL' for 'com.kgisl.springbdd'--
+*[INFO ]-- Starting SpringbddApplicationTests on kgfsl with PID 65811 (started by baraneetharan in /Users/baraneetharan/Documents/java/springbdd)--
+*[INFO ]-- No active profile set, falling back to default profiles: default--
+*[INFO ]-- HikariPool-1 - Starting...--
+*[INFO ]-- HikariPool-1 - Start completed.--
+*[INFO ]-- Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]--
+*[INFO ]-- Context refreshed--
+*[INFO ]-- Found 1 custom documentation plugin(s)--
+*[INFO ]-- Scanning for api listing references--
+*[INFO ]-- Started SpringbddApplicationTests in 22.832 seconds (JVM running for 29.961)--
+*[INFO ]-- HikariPool-1 - Shutdown initiated...--
+*[INFO ]-- HikariPool-1 - Shutdown completed.--
+*[ERROR]-- Cannot set level 'ALL' for 'com.kgisl.springbdd'--
+*[INFO ]-- Starting TeamControllerIT on kgfsl with PID 66235 (started by baraneetharan in /Users/baraneetharan/Documents/java/springbdd)--
+*[INFO ]-- No active profile set, falling back to default profiles: default--
+*[INFO ]-- Starting service [Tomcat]--
+*[INFO ]-- Starting Servlet Engine: Apache Tomcat/9.0.13--
+*[INFO ]-- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baraneetharan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]--
+*[INFO ]-- Initializing Spring embedded WebApplicationContext--
+*[INFO ]-- HikariPool-1 - Starting...--
+*[INFO ]-- HikariPool-1 - Start completed.--
+*[INFO ]-- Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]--
+*[INFO ]-- Initializing Spring TestDispatcherServlet ''--
+*[INFO ]-- Context refreshed--
+*[INFO ]-- Found 1 custom documentation plugin(s)--
+*[INFO ]-- Scanning for api listing references--
+*[INFO ]-- Started TeamControllerIT in 27.337 seconds (JVM running for 30.895)--
+*[INFO ]-- Initializing Spring DispatcherServlet 'dispatcherServlet'--
+*[INFO ]-- -----------------------@Before advice called----------------------------------------
+*[INFO ]-- Entering in Method :  getTeams--
+*[WARN ]-- Argumentsttt :  []--
+*[INFO ]-- ------------------- @AfterReturning advice called -----------------------------------
+*[INFO ]--  >Returning for class : {} ; Method : {} com.kgisl.springbdd.service.TeamServiceImpgetTeams--
+*[INFO ]-- > with value : {}[com.kgisl.springbdd.entity.Team@64378842]--
+*[INFO ]-- HikariPool-1 - Shutdown initiated...--
+*[INFO ]-- HikariPool-1 - Shutdown completed.--
+*[ERROR]-- Cannot set level 'ALL' for 'com.kgisl.springbdd'--
+*[INFO ]-- Starting TeamControllerIT on kgfsl with PID 66315 (started by baraneetharan in /Users/baraneetharan/Documents/java/springbdd)--
+*[INFO ]-- No active profile set, falling back to default profiles: default--
+*[INFO ]-- Starting service [Tomcat]--
+*[INFO ]-- Starting Servlet Engine: Apache Tomcat/9.0.13--
+*[INFO ]-- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/baraneetharan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]--
+*[INFO ]-- Initializing Spring embedded WebApplicationContext--
+*[INFO ]-- HikariPool-1 - Starting...--
+*[INFO ]-- HikariPool-1 - Start completed.--
+*[INFO ]-- Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]--
+*[INFO ]-- Initializing Spring TestDispatcherServlet ''--
+*[INFO ]-- Context refreshed--
+*[INFO ]-- Found 1 custom documentation plugin(s)--
+*[INFO ]-- Scanning for api listing references--
+*[INFO ]-- Started TeamControllerIT in 17.965 seconds (JVM running for 20.814)--
+*[INFO ]-- Initializing Spring DispatcherServlet 'dispatcherServlet'--
+*[INFO ]-- -----------------------@Before advice called----------------------------------------
+*[INFO ]-- Entering in Method :  getTeams--
+*[WARN ]-- Argumentsttt :  []--
+*[INFO ]-- ------------------- @AfterReturning advice called -----------------------------------
+*[INFO ]--  >Returning for class : {} ; Method : {} com.kgisl.springbdd.service.TeamServiceImpgetTeams--
+*[INFO ]-- > with value : {}[com.kgisl.springbdd.entity.Team@56f23353]--
+*[INFO ]-- HikariPool-1 - Shutdown initiated...--
+*[INFO ]-- HikariPool-1 - Shutdown completed.--
