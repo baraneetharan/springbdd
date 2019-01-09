@@ -26,8 +26,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
 /**
- * TeamController
- */
+* TeamController
+*/
 
 @CrossOrigin(origins = "*")
 @EnableAspectJAutoProxy(proxyTargetClass = true)
@@ -35,50 +35,50 @@ import org.springframework.web.util.UriComponentsBuilder;
 @RequestMapping("/api/teams")
 public class TeamController {
 
-    @Autowired
-    private TeamService teamService;
+   @Autowired
+   private TeamService teamService;
 
-    // @Autowired
-    // private ModelMapper modelMapper;
+   // @Autowired
+   // private ModelMapper modelMapper;
 
-    @PostMapping(value = "/", headers = "Accept=application/json")
-    public ResponseEntity<Void> createTeam(@RequestBody Team team) {
-        teamService.createTeam(team);
-        HttpHeaders headers = new HttpHeaders();
-        // headers.setLocation(ucBuilder.path("/{id}").buildAndExpand(team.getTeamid()).toUri());
-        return new ResponseEntity<>(headers, HttpStatus.CREATED);
-    }
+   @PostMapping(value = "/", headers = "Accept=application/json")
+   public ResponseEntity<Team> createTeam(@RequestBody Team team) {
+       Team actualTeam=teamService.createTeam(team);
+       HttpHeaders headers = new HttpHeaders();
+       // headers.setLocation(ucBuilder.path("/{id}").buildAndExpand(team.getTeamid()).toUri());
+       return new ResponseEntity<>(actualTeam,headers, HttpStatus.CREATED);
+   }
 
-    @GetMapping("/")
-    public @ResponseBody ResponseEntity<List<Team>> all() {
-        return new ResponseEntity<>(teamService.getTeams(), HttpStatus.OK);
-    }
+   @GetMapping("/")
+   public @ResponseBody ResponseEntity<List<Team>> all() {
+       return new ResponseEntity<>(teamService.getTeams(), HttpStatus.OK);
+   }
 
-    @GetMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Team> getTeamById(@PathVariable("id") long id) {
-        Team team = teamService.findByTeamId(id);
-        if (team == null) {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
-        return new ResponseEntity<>(team, HttpStatus.OK);
-    }
+   @GetMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
+   public ResponseEntity<Team> getTeamById(@PathVariable("id") long id) {
+       Team team = teamService.findByTeamId(id);
+       if (team == null) {
+           return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+       }
+       return new ResponseEntity<>(team, HttpStatus.OK);
+   }
 
-    @PutMapping(value = "/{id}", headers="Accept=application/json")
-    public ResponseEntity<Team> updateTeam(@PathVariable("id") long id,@RequestBody Team currentTeam)
-    {
-        Team team=teamService.updateTeam(id,currentTeam);
-        return new ResponseEntity<>(team,HttpStatus.OK);
-    }
+   @PutMapping(value = "/{id}", headers="Accept=application/json")
+   public ResponseEntity<Team> updateTeam(@PathVariable("id") long id,@RequestBody Team currentTeam)
+   {
+       Team team=teamService.updateTeam(id,currentTeam);
+       return new ResponseEntity<>(team,HttpStatus.OK);
+   }
 
-    @DeleteMapping(value="/{id}", headers ="Accept=application/json")
-    public ResponseEntity<Team> deleteTeam(@PathVariable("id") Long id){
-        Team user = teamService.findByTeamId(id);
-        if (user == null) {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
-        teamService.deleteTeamById(id);
-        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-    }
+   @DeleteMapping(value="/{id}", headers ="Accept=application/json")
+   public ResponseEntity<Team> deleteTeam(@PathVariable("id") Long id){
+       Team user = teamService.findByTeamId(id);
+       if (user == null) {
+           return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+       }
+       teamService.deleteTeamById(id);
+       return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+   }
 
-    
+
 }
