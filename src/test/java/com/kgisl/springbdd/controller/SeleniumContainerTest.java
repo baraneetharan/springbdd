@@ -19,8 +19,8 @@ public class SeleniumContainerTest {
 
     @Rule
     public BrowserWebDriverContainer chrome = new BrowserWebDriverContainer()
-                                                    .withDesiredCapabilities(DesiredCapabilities.chrome())
-                                                    .withRecordingMode(RECORD_ALL, new File("target"));
+                                                    .withDesiredCapabilities(DesiredCapabilities.chrome());
+                                                    // .withRecordingMode(RECORD_ALL, new File("target"));
 
     @Test
     public void simplePlainSeleniumTest() {
