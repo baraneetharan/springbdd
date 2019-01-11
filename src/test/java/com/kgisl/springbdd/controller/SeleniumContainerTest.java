@@ -26,7 +26,7 @@ private static Network net = Network.newNetwork();
     public void simplePlainSeleniumTest() {
         
         RemoteWebDriver driver = browser.getWebDriver();
-​
+
         
         
       //  RemoteWebDriver driver = chrome.getWebDriver();
