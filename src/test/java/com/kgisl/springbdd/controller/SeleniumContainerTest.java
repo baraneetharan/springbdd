@@ -27,7 +27,7 @@ private static Network net = Network.newNetwork();
         
         RemoteWebDriver driver = browser.getWebDriver();
 ​
-        //webDriver.get("http://sut:8080/view/ratings/");
+        
         
       //  RemoteWebDriver driver = chrome.getWebDriver();
 
